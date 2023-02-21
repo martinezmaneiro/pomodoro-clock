@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    color: white;
+    background-color: #333;
+}
+
+.dual-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.time-sets{
+    display: grid;
+    grid-template-columns: 50px 200 px 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.clock {
+    display: inline;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: -6%;
+}
